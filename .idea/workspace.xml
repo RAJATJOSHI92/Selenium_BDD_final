@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e0a429-e365-41e2-a8fa-ab9987c2980c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ansi-escape-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/factory/Driverfactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/utils/Elementutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/Apphooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Feature/login.feature" afterDir="false" />
+    <list default="true" id="b0e0a429-e365-41e2-a8fa-ab9987c2980c" name="Changes" comment="commit2">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Apphooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Apphooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +46,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "/Users/macbookpro/Desktop/Selemium_BDD_final/src/test/java",
+    "last_opened_file_path": "/Users/macbookpro/Desktop/Selemium_BDD_final/src/test/resources",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -128,6 +125,14 @@
       <option name="presentableId" value="Default" />
       <updated>1730292569972</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit2">
+      <created>1730307936684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730307936684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,5 +145,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
   </component>
 </project>

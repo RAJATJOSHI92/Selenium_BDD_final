@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features ={"/Users/macbookpro/Desktop/Selemium_BDD_final/src/test/resources/Feature"},
         glue = {"stepdefinition","hooks"},
-        plugin = {"pretty"}
+        plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
 public class TestRunner
 {

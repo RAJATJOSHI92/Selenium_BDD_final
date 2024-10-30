@@ -26,7 +26,8 @@ public class LoginPageSteps {
     @Then("user should get the title {string}")
     public void user_should_get_the_title(String expected) {
         System.out.println("Login Page title is " + title);
-        Assert.assertTrue(title.contains(expected));
+        System.out.println("expected is"+expected);
+        Assert.assertEquals(title,expected);
 
     }
 

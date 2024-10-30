@@ -48,7 +48,7 @@ public class Apphooks
         {
             String Screenshot = scenario.getName().replaceAll("", "_");
             byte[] sourcefile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(sourcefile,"img/png",Screenshot);
+            scenario.attach(sourcefile,"image/png",Screenshot);
         }
     }
 }
