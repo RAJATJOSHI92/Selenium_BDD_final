@@ -19,12 +19,19 @@
     <java.version>1.8</java.version>
     <junit.version>4.13.1</junit.version>
     <cucumber.version>6.9.0</cucumber.version>
-    <maven.compiler.version>3.8.1</maven.compiler.version>
-    <maven.surefire.version>2.22.2</maven.surefire.version>
+    <maven.compiler.version>3.13.0</maven.compiler.version>
+    <maven.surefire.version>3.5.1</maven.surefire.version>
 
   </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.34</version>
+      <scope>provided</scope>
+    </dependency>
 
 
     <dependency>
@@ -33,6 +40,7 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>     <groupId>com.apple</groupId>     <artifactId>AppleJavaExtensions</artifactId>     <version>1.4</version> </dependency>
 
     <dependency>
       <groupId>io.cucumber</groupId>
@@ -101,15 +109,10 @@
       <artifactId>poi-ooxml</artifactId>
       <version>4.1.2</version>
     </dependency>
-
-
-
   </dependencies>
 
   <build>
     <plugins>
-
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -126,15 +129,15 @@
         <version>${maven.surefire.version}</version>
         <configuration>
           <includes>
-            <include>**/ParallelRun.java</include>
-          </includes>
+          <include>**/ParallelRunner.java</include>
+        </includes>
           <parallel>methods</parallel>
           <threadCount>4</threadCount>
-          <useUnlimitedThreads>false</useUnlimitedThreads>
+          <useUnlimitedThreads>true</useUnlimitedThreads>
         </configuration>
       </plugin>
 
-      <!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId>
+     <!--  <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId>
           <version>3.0.0-M3</version> <executions> <execution> <goals> <goal>integration-test</goal>
           </goals> <configuration> UNCOMMENT - To add any exclusions if required <excludes>
           <exclude>**/*IT*.java</exclude> </excludes> <includes> UNCOMMENT BELOW LINE

@@ -1,5 +1,5 @@
 Feature: Account page feature
-
+@regression
   Scenario: Login to Acoounts page with valid credentials
     Given user is on Accounts page
     When user enters username and passward
