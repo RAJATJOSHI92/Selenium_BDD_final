@@ -1,11 +1,14 @@
 package stepdefinition;
 
+import com.pages.Accountspage;
 import com.pages.LoginPage;
 import com.qa.factory.Driverfactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
+
+import static com.qa.factory.Driverfactory.driver;
 
 public class LoginPageSteps {
 
@@ -37,7 +40,7 @@ public class LoginPageSteps {
     }
 
     @When("user click on Myaccount Link")
-    public void user_click_on_myaccount_link() {
+    public void  user_click_on_myaccount_link() {
         login.linkclick();
     }
 

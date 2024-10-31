@@ -22,12 +22,13 @@ public class LoginPage
        return driver.getTitle();
    }
 
-   public  void linkclick()
+   public Accountspage linkclick()
    {
        driver.findElement(myaccountbtn).click();
+       return new Accountspage(driver);
    }
 
-   public void setusename(String username)
+  /* public void setusename(String username)
    {
        driver.findElement(usernamee).sendKeys();
    }
@@ -39,5 +40,8 @@ public class LoginPage
     public  void loginbtnclick()
     {
         driver.findElement(loginbtn).click();
-    }
+    }*/
+
+
+
 }

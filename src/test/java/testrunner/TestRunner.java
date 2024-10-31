@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ={"/Users/macbookpro/Desktop/Selemium_BDD_final/src/test/resources/Feature"},
+        features ={"/Users/macbookpro/Desktop/Selemium_BDD_final/src/test/resources/Feature/account.feature"},
         glue = {"stepdefinition","hooks"},
         plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
